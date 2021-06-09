@@ -140,3 +140,11 @@ export interface Portfolio {
     dateModified: string;
     new: boolean;
 }
+
+export interface Bookmark {
+    name: string;
+    image: string;
+    url: string;
+    description?: string;
+    tags?: Array<string>;
+}
